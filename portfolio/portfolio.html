@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="portf.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="head">
+        <div class="head-container">
+            <nav>
+                <img src="images/L.jpeg" class="logo" alt="LOGO">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Service</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="head-row">
+                <div class="head-txt">
+                    <p>Front-end developer</p>
+                    <h1>Hi, Myself <span>Kavin</span></h1>
+                </div>
+                <div>
+                    <div class="head-txt">
+                        <img src="images/headim.png" alt="headimg">
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+    <div class="about">
+        <div class="about-container">
+            <div class="row">
+                <div class="col1">
+                    <img src="images/headim.png" alt="photo">
+                </div>
+                <div class="col2">
+                    <h1 class="sub-tit">About</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur quam, sapiente veritatis voluptas necessitatibus ex consequatur unde et voluptatem illum, reiciendis officiis alias porro autem obcaecati iusto fugit rerum nesciunt accusamus atque. Soluta, quaerat numquam? Labore magnam commodi tempore ipsum mollitia modi dolore ab aliquid!</p>
+                    <div class="titles">
+                        <p class="title-links avtive-link" onclick="opentab('experience')">Experience</p>
+                        <p class="title-links" onclick="opentab('skills')">Skills</p>
+                        <p class="title-links" onclick="opentab('education')">Education</p>
+                    </div>              
+                    
+                    <div class="title-content" id="experience">
+                        <ul>
+                            <li><span>2-Months</span><br>Website Development</li>
+                            <li><span>3-Months</span><br>Website Designer</li>
+                            <li><span>2-Months</span><br>App Development</li>
+                        </ul>
+                    </div>
+
+                    <div class="title-content" id="skills">
+                        <ul>
+                            <li><span>Web developer</span><br>Website Development</li>
+                            <li><span>UI/Ux Designer</span><br>Website Designer</li>
+                            <li><span>App developer</span><br>App Development</li>
+                        </ul>
+                    </div>
+
+                    <div class="title-content" id="education">
+                        <ul>
+                            <li><span>2021-2025</span><br>B-Tech at Madurai</li>
+                            <li><span>2018-2020</span><br>HSC at Tiruppur</li>
+                            <li><span>2017-2018</span><br>SSLC at Madurai</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="services">
+        <div class="container">
+            <h1 class="sub-tit">My Services</h1>
+            <div class="service-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat facilis fugiat atque commodi eius totam minus eligendi reiciendis labore laudantium?</p>
+                    <a href="#">Learn More</a>               
+                </div>
+
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>App Development</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat facilis fugiat atque commodi eius totam minus eligendi reiciendis labore laudantium?</p>
+                    <a href="#">Learn More</a>               
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-globe"></i>
+                    <h2>UI/UX</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat facilis fugiat atque commodi eius totam minus eligendi reiciendis labore laudantium?</p>
+                    <a href="#">Learn More</a>               
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="works">
+        <div class="container">
+            <h2 class="sub-tit">Works</h2>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/web1.jpg">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, qui!</p>
+                </div>
+                <div class="work">
+                    <img src="images/app.jpeg">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, qui!</p>
+                </div>
+                <div class="work">
+                    <img src="images/ui1.jpeg">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, qui!</p>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <div class="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact1">
+                   <h1 class="sub-tit">Contact Details</h1>
+                   <p><i class="fa-regular fa-envelope"></i>emailid@gmail.com</p>
+                   <p><i class="fa-solid fa-phone"></i>+91-9876543210</p>
+                   <div class="soc-icon">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                   </div>
+                   <a href="images/resume.pdf"><button class="res-btn">Download resume</button></a>
+                </div>
+                <div class="contact2">
+                   <form>
+                    <input type="text" name="Name" placeholder="NAME" required>
+                    <input type="email" name="email" placeholder="E-MAIL" required>
+                    <textarea name="message" rows="4" placeholder="MESSAGE"></textarea>
+                    <button type="submit" class="res-btn">Submit</button>
+                   </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">copyright @ Kevin.Created with HTML and CSS</div>
+    </div>
+
+    <script>
+        function opentab(tabName) {
+          
+          var contents = document.getElementsByClassName("title-content");
+          for (var i = 0; i < contents.length; i++) {
+            contents[i].classList.remove("active-content");
+          }
+    
+          
+          var links = document.getElementsByClassName("title-links");
+          for (var i = 0; i < links.length; i++) {
+            links[i].classList.remove("active-link");
+          }
+    
+        
+          document.getElementById(tabName).classList.add("active-content");
+    
+        
+          event.target.classList.add("active-link");
+        }
+    
+        
+        document.addEventListener("DOMContentLoaded", function() {
+          opentab('experience');
+        });
+      </script>
+</body>
+</html>
